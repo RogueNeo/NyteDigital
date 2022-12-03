@@ -54,7 +54,7 @@ const Footer = () => {
                   <a href="https://www.instagram.com/nyte.digital/" className="icon">
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="#0" className="icon">
+                  <a href="https://www.behance.net/nytedigital" className="icon">
                     <i className="fab fa-behance"></i>
                   </a>
                 </div>

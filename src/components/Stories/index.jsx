@@ -10,13 +10,13 @@ const Stories = () => {
         </h2>
         <button className="button-primary"><a href="/about">Learn More</a> </button>
         <div className="hero-socials">
-          <a href="#0" className="icon">
+          <a href="https://www.facebook.com/nyte.digital" className="icon">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#0" className="icon">
+          <a href="https://www.instagram.com/nyte.digital/" className="icon">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="#0" className="icon">
+          <a href="https://www.behance.net/nytedigital" className="icon">
             <i className="fab fa-behance"></i>
           </a>
         </div>
