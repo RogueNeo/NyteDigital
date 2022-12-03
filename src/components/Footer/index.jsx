@@ -48,10 +48,10 @@ const Footer = () => {
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Follow Us</h6>
                 <div className="social">
-                  <a href="#0" className="icon">
+                  <a href="https://www.facebook.com/nyte.digital" className="icon">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="#0" className="icon">
+                  <a href="https://www.instagram.com/nyte.digital/" className="icon">
                     <i className="fab fa-instagram"></i>
                   </a>
                   <a href="#0" className="icon">
