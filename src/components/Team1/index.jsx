@@ -36,7 +36,7 @@ class Team1 extends React.Component {
               <div className="full-width">
                 <div className="sec-head custom-font mb-0">
                   <h6>Members</h6>
-                  <h3>Our Team.</h3>
+                  <h3>Our Team</h3>
                 </div>
                 {this.renderArrows()}
               </div>

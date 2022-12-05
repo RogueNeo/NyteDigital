@@ -73,12 +73,12 @@
 
 /* #################################################### */
 ::-moz-selection { /* Code for Firefox */
-  color: white;
+  color: #010a19;
   background: var(--clr-primary-blue);
 }
 
 ::selection {
-  color: white;
+  color: #010a19;
   background: var(--clr-primary-blue);
 }
 
@@ -89,13 +89,13 @@ p {
 
 .nav-item {
   font-size: 20px !important;
-  color: var(--clr-muted) !important;
+  color: white !important;
 }
 
 
 .nav-link {
   font-size: 20px !important;
-  color: var(--clr-muted) !important;
+  color: white !important;
 }
 
 .fab {
@@ -146,7 +146,7 @@ p {
 .unique-stories--left {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 65px;
 
 }
 
@@ -219,10 +219,11 @@ p {
   box-sizing: border-box;
   outline: none;
   list-style: none;
+  
 }
 
 body {
-  color: var(--clr-muted);
+  color: white;
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
@@ -281,7 +282,7 @@ h6 {
 }
 
 p {
-  color: var(--clr-muted);
+  color: var(--clr-mute);
   font-size: 20px;
   font-weight: 300;
   line-height: 2;
@@ -361,7 +362,7 @@ span:hover {
 }
 
 .sub-bg {
-  background: #fff !important;
+  background: var(--clr-muted) !important;
   padding-top: 50px;
 }
 
@@ -1418,7 +1419,7 @@ body {
 }
 
 [data-overlay-light]:before {
-  background: #fff;
+  background: var(--clr-muted);
 }
 
 [data-overlay-dark] h1,
@@ -1515,7 +1516,7 @@ body {
 }
 .sec-head h6 {
   color: var(--clr-primary-blue);
-  font-weight: 300;
+  font-weight: 500;
   font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 14px;
@@ -1757,14 +1758,14 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-  background: rgba(255,255,255, 0.25);
+  background: rgba(1, 10, 25, 0.5);
   border-bottom: 2px solid transparent;
   z-index: 999;
   min-height: 80px;
   backdrop-filter: blur(5px);
 }
 .navbar .icon-bar {
-  color: var(--clr-muted);
+  color: rgba(1, 10, 25, 0.5);
 }
 .nav-scroll .icon-bar i {
   color: #000;
@@ -1897,7 +1898,7 @@ body {
 }
 
 .nav-scroll {
-  background: white;
+  background: rgba(1, 10, 25, 0.5);
   border-color: transparent;
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
@@ -2181,7 +2182,7 @@ body {
   margin-left: 10px;
 }
 .hamenu .cont-info {
-  color: #fff;
+  color: var(--clr-muted);
   margin-top: 50px;
   position: relative;
 }
@@ -3044,7 +3045,7 @@ body {
   font-weight: bold;
   color: transparent;
   letter-spacing: -20px;
-  -webkit-text-stroke: 1px rgba(17, 100, 254, 0.6);
+  -webkit-text-stroke: 1px var(--clr-primary-blue);
   z-index: -1;
   position: absolute;
   width: 100%;
@@ -3059,7 +3060,7 @@ body {
 }
 
 .main-content {
-  background: #fff;
+  background: var(--clr-muted);
   position: relative;
   z-index: 3;
 }
@@ -3604,6 +3605,7 @@ body {
 /* ====================== [ Start services ] ====================== */
 .services {
   position: relative;
+  background: var(--clr-muted);
 }
 .mas-item > span{
   color: #1164fe;
@@ -3670,7 +3672,7 @@ body {
 .services .mas-item {
   padding: 40px;
   margin: 50px 0;
-  background: #f7f7f7;
+  background: var(--clr-cursor);
   position: relative;
   z-index: 2;
 }
@@ -3681,7 +3683,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #f7f7f7;
+  background: var(--clr-cursor);
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -3784,7 +3786,7 @@ body {
   right: 120px;
   bottom: 0;
   left: -500px;
-  background: #f7f7f7;
+  background: var(--clr-muted);
   z-index: -1;
 }
 
@@ -4593,6 +4595,7 @@ body {
 /* ====================== [ Start Team ] ====================== */
 .team {
   position: relative;
+  background: var(--clr-muted);
 }
 .team .team-container {
   width: 160%;
@@ -4605,7 +4608,7 @@ body {
   bottom: -120px;
   right: -150px;
   width: 100%;
-  background: #f7f7f7;
+  background: var(--clr-cursor);
   z-index: -1;
 }
 .team .item {
@@ -4613,7 +4616,7 @@ body {
 }
 .team .item .info {
   padding: 15px;
-  background: #fff;
+  background: #00142f;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -4624,6 +4627,7 @@ body {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  color: #fff;
 }
 .team .item .info span {
   color: var(--clr-primary-blue);
@@ -4660,14 +4664,14 @@ body {
 }
 .team .navs .prev,
 .team .navs .next {
-  color: #777;
+  color: #fff;
   font-size: 13px;
   width: 55px;
   height: 55px;
   line-height: 55px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.8);
   position: static;
 }
 .team .slick-dots {
@@ -5688,7 +5692,7 @@ body {
   width: 100%;
   padding: 15px 0;
   border: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #fff;
   background: transparent;
   font-family: var(--font-sp);
 }
@@ -5705,13 +5709,13 @@ body {
   padding: 15px 0;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid #fff;
 }
 
 .contact .form textarea {
   padding: 15px;
   min-height: 140px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid #fff;
   margin-top: 30px;
 }
 
@@ -5726,14 +5730,14 @@ body {
 .contact .cont-info .item h5 {
   font-size: 18px;
   font-weight: 400;
-  color: #777;
+  color: #fff;
   margin: 10px 0;
 }
 
 .contact .cont-info .item h6 {
   font-size: 18px;
   font-weight: 300;
-  color: #777;
+  color: #fff;
   line-height: 1.7;
 }
 
@@ -5745,7 +5749,7 @@ body {
   border-radius: 50%;
   margin-right: 5px;
   font-size: 13px;
-  background-color: white;
+  background-color: var(--clr-muted);
 }
 
 .map {
@@ -5756,8 +5760,8 @@ body {
 /* ====================== [ End contact ] ====================== */
 /* ====================== [ Start Footer ] ====================== */
 .footer-half {
-  color: var(--clr-muted);
-  background: white !important;
+  color: white;
+  background: var(--clr-muted) !important;
   position: relative;
   z-index: 2;
 }
@@ -5768,7 +5772,7 @@ body {
   left: 0;
   height: 100%;
   width: 50%;
-  background: white;
+  background: var(--clr-muted);
   z-index: -1;
 }
 .footer-half .stit {
@@ -5857,11 +5861,11 @@ body {
 .footer-half .copyrights {
   margin-top: 50px;
   padding: 30px 0;
-  background: white;
+  background: var(--clr-muted);
 }
 .footer-half .copyrights p {
-  font-size: 12px;
-  color: #111;
+  font-size: 15px;
+  color: #fff;
 }
 .footer-half .copyrights p a {
   color: var(--clr-primary-blue);
