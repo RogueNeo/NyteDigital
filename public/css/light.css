@@ -1765,10 +1765,10 @@ body {
   backdrop-filter: blur(5px);
 }
 .navbar .icon-bar {
-  color: rgba(1, 10, 25, 0.5);
+  color: white !important;
 }
 .nav-scroll .icon-bar i {
-  color: #fff;
+  color: white !important;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -2915,7 +2915,7 @@ body {
 }
 
 .pages-header {
-  height: 75vh;
+  height: 65vh;
 }
 .pages-header .cont h1 {
   font-size: 75px;
@@ -3050,9 +3050,12 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  left: -150px;
-  top: 0;
-  text-align: center;
+  /* left: -150px; */
+  /* top: 0; */
+  /* text-align: center; */
+  inset: 0;
+  left: 50%;
+  transform: translateX(-58%);
 }
 
 .static {
@@ -6146,6 +6149,14 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  /* ####################### */
+  .works-header .capt .bactxt {
+    left: 0;
+    transform: translateX(0);
+  }
+  /* ####################### */
+
+
   .sm-mb10 {
     margin-bottom: 10px;
   }

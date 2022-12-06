@@ -8,6 +8,8 @@ import {
   // handleSearch,
 } from "../../common/navbar";
 
+import {GiHamburgerMenu} from "react-icons/gi"
+
 const Navbar = ({ lr, nr, theme }) => {
   return (
     <nav
@@ -40,8 +42,8 @@ const Navbar = ({ lr, nr, theme }) => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="icon-bar">
-            <i className="fas fa-bars"></i>
+          <span className="icon-bar" >
+            <GiHamburgerMenu />
           </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">

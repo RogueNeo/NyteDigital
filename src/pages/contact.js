@@ -35,7 +35,7 @@ const Contact = () => {
   }, []);
   return (
     <LightTheme>
-      <Navbar nr={navbarRef} theme="themeL" />
+      <Navbar nr={navbarRef} theme="themeD" />
       <ContactHeader sliderRef={fixedHeader} />
       <div className="main-content" ref={MainContent}>
         <ContactWithMap />

@@ -79,11 +79,12 @@ class Team1 extends React.Component {
                     className="item wow fadeInUp"
                     data-wow-delay=".3s"
                     key={item.id}
+                    
                   >
-                    <div className="img wow imago">
+                    <div className="img wow imago" style={{width: "65%"}}>
                       <img src={item.image} alt="" />
                     </div>
-                    <div className="info">
+                    <div className="info" style={{width: "65%"}}>
                       <h5>{item.name}</h5>
                       <div className="social">
                           <div className="info">
