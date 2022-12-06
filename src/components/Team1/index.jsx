@@ -49,7 +49,7 @@ class Team1 extends React.Component {
                   dots: false,
                   infinite: true,
                   arrows: true,
-                  autoplay: true,
+                  autoplay: false,
                   slidesToScroll: 1,
                   slidesToShow: 4,
                   responsive: [
@@ -68,7 +68,7 @@ class Team1 extends React.Component {
                     {
                       breakpoint: 480,
                       settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                       },
                     },
                   ],
@@ -81,10 +81,10 @@ class Team1 extends React.Component {
                     key={item.id}
                     
                   >
-                    <div className="img wow imago" style={{width: "60%"}}>
+                    <div className="img wow imago" style={{'@media (max-width: 767px)': {width: '70% !important'}}} >
                       <img src={item.image} alt="" />
                     </div>
-                    <div className="info" style={{width: "60%"}}>
+                    <div className="info" style={{'@media (max-width: 767px)': {width: '70% !important'}}}>
                       <h5>{item.name}</h5>
                       <div className="social">
                           <div className="info">
