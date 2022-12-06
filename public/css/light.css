@@ -1512,7 +1512,7 @@ body {
 /* ====================== [ Start Heading ] ====================== */
 .sec-head {
   position: relative;
-  margin: 0 auto 80px;
+  margin: 0 0 80px;
 }
 .sec-head h6 {
   color: var(--clr-primary-blue);
@@ -6153,6 +6153,12 @@ body {
   .works-header .capt .bactxt {
     left: 0;
     transform: translateX(0);
+    letter-spacing: 0;
+    font-size: 25vw;
+  }
+
+  .pages-header {
+    height: 40vh;
   }
   /* ####################### */
 

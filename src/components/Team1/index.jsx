@@ -81,10 +81,10 @@ class Team1 extends React.Component {
                     key={item.id}
                     
                   >
-                    <div className="img wow imago" style={{width: "65%"}}>
+                    <div className="img wow imago" style={{width: "60%"}}>
                       <img src={item.image} alt="" />
                     </div>
-                    <div className="info" style={{width: "65%"}}>
+                    <div className="info" style={{width: "60%"}}>
                       <h5>{item.name}</h5>
                       <div className="social">
                           <div className="info">
