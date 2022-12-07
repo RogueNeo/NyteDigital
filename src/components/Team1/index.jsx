@@ -87,8 +87,8 @@ class Team1 extends React.Component {
                     <div className="info" style={{'@media (max-width: 767px)': {width: '70% !important'}}}>
                       <h5>{item.name}</h5>
                       <div className="social">
-                          <div className="info">
-                            <h5> {item.title} </h5>
+                          <div className="info" >
+                            <h5 style={{color: "#1164fe !important", fontWeight: 600}}> {item.title} </h5>
                           </div>
                       </div>
                     </div>

@@ -46,5 +46,11 @@
     "image": "/img/team/05.jpg",
     "name": "Anish Amartya Saha",
     "title": "Administrative Assistant"
+  },
+  {
+    "id": 9,
+    "image": "/img/team/ISHRAQ.png",
+    "name": "Ishraq Kabir",
+    "title": "Content Specialist"
   }
 ]
