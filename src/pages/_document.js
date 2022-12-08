@@ -16,12 +16,16 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="HTML5 Template Avo onepage themeforest"
+            content="design, development, web development, content, editing, video editing, photoshop, nyte, nyte digital, 3D art"
           />
           <meta
             name="description"
-            content="Avo - Onepage Multi-Purpose HTML5 Template"
+            content="We help to create strategies,
+            design & development.
+            "
           />
+          <meta property="og:image" content="/img/PREVIEW_IMAGE.png" />
+
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/favicon.ico" />
           {/* Google Fonts */}
