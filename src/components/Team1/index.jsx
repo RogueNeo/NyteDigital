@@ -95,14 +95,7 @@ class Team1 extends React.Component {
                       }}
                     >
                       <h5>{item.name}</h5>
-                      <h5
-                        style={{
-                          color: "#1164fe !important",
-                          fontWeight: 400,
-                        }}
-                      >
-                        {item.title}
-                      </h5>
+                      <h5 className="work-title">{item.title}</h5>
                       {/* <div className="social">
                         <div className="info">
                           <h5

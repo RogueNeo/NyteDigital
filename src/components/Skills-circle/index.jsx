@@ -13,6 +13,7 @@ const SkillsCircle = ({ subBG, theme }) => {
     text: {
       fill: theme ? (theme == "dark" ? "#ffffff" : "#1164fe") : "",
       fontSize: "24px",
+      fontWeight: "bold",
     },
   };
   return (
@@ -27,7 +28,7 @@ const SkillsCircle = ({ subBG, theme }) => {
                     <div className="skill">
                       <CircularProgressbar
                         value={85}
-                        strokeWidth={5}
+                        strokeWidth={3}
                         text={`${85}%`}
                         styles={cpStyle}
                       />
@@ -43,7 +44,7 @@ const SkillsCircle = ({ subBG, theme }) => {
                     <div className="skill">
                       <CircularProgressbar
                         value={90}
-                        strokeWidth={5}
+                        strokeWidth={3}
                         text={`${90}%`}
                         styles={cpStyle}
                       />
