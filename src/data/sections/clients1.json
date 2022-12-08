@@ -3,48 +3,56 @@
     "id": 1,
     "lightImage": "/img/clients/brands/light/BYDESA.png",
     "darkImage": "/img/clients/brands/dark/01.png",
-    "url": "BYDESA"
+    "name": "BYDESA",
+    "url": "https://bd.linkedin.com/company/bydesa"
   },
   {
     "id": 2,
     "lightImage": "/img/clients/brands/light/XLE.png",
     "darkImage": "/img/clients/brands/dark/02.png",
-    "url": "ALCHEMIST ESPORTS"
+    "name": "ALCHEMIST ESPORTS",
+    "url": "https://www.facebook.com/AlchemistEsports"
   },
   {
     "id": 3,
     "lightImage": "/img/clients/brands/light/XLE_5.png",
     "darkImage": "/img/clients/brands/dark/03.png",
-    "url": "EXCEELI ESPORTS"
+    "name": "EXCEELI ESPORTS",
+    "url": "https://www.facebook.com/exceeliesports/"
   },
   {
     "id": 4,
     "lightImage": "/img/clients/brands/light/4.png",
     "darkImage": "/img/clients/brands/dark/04.png",
-    "url": "BINARY LOGIC"
+    "name": "BINARY LOGIC",
+    "url": "https://www.binarylogic.com.bd/"
   },
   {
     "id": 5,
     "lightImage": "/img/clients/brands/light/5.png",
     "darkImage": "/img/clients/brands/dark/05.png",
-    "url": "GREY.D' STUDIO"
+    "name": "GREY.D' STUDIO",
+    "url": "https://www.greydstudio.net/"
   },
   {
     "id": 6,
     "lightImage": "/img/clients/brands/light/6.png",
     "darkImage": "/img/clients/brands/dark/06.png",
-    "url": "LEAGUE OF LEGENDS BD"
+    "name": "LEAGUE OF LEGENDS BD",
+    "url": "https://www.facebook.com/groups/lolbd"
   },
   {
     "id": 7,
     "lightImage": "/img/clients/brands/light/7.png",
     "darkImage": "/img/clients/brands/dark/07.png",
-    "url": "GRID GAMING"
+    "name": "CLUB VOLTA",
+    "url": "https://www.facebook.com/clubvolta?mibextid=ZbWKwL"
   },
   {
     "id": 8,
     "lightImage": "/img/clients/brands/light/8.png",
     "darkImage": "/img/clients/brands/dark/08.png",
-    "url": "NEW HORIZONS"
+    "name": "NEW HORIZONS",
+    "url": "https://www.newhorizons.com/"
   }
 ]

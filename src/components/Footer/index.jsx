@@ -35,26 +35,41 @@ const Footer = () => {
                     <span>Email : </span> digital.nyte@gmail.com
                   </li>
                   <li>
-                    <span>Address : </span> House-28/D, Road-18, Sector-7, Uttara, Dhaka-1230
+                    <span>Address : </span>Dhaka, Bangladesh
                   </li>
                   <li>
-                    <span>Phone : </span> (+880)  19731-96345
+                    <span>Phone : </span> (+880) 19731-96345
                   </li>
                   <li>
-                    <span>Phone : </span> (+880)  19166-65058
+                    <span>Phone : </span> (+880) 19166-65058
                   </li>
                 </ul>
               </div>
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Follow Us</h6>
                 <div className="social">
-                  <a href="https://www.facebook.com/nyte.digital" className="icon">
+                  <a
+                    href="https://www.facebook.com/nyte.digital"
+                    className="icon"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="https://www.instagram.com/nyte.digital/" className="icon">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.instagram.com/nyte.digital/"
+                    className="icon"
+                  >
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="https://www.behance.net/nytedigital" className="icon">
+                  <a
+                    href="https://www.behance.net/nytedigital"
+                    className="icon"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fab fa-behance"></i>
                   </a>
                 </div>

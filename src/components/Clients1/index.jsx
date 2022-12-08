@@ -7,7 +7,7 @@ const Clients1 = ({ theme, subBG }) => {
   var first = Clients1Data.slice(0, Clients1Data.length / 2);
   var second = Clients1Data.slice(4, Clients1Data.length);
   return (
-    <section  className={`clients section-padding ${subBG ? "sub-bg" : ""}`}>
+    <section className={`clients section-padding ${subBG ? "sub-bg" : ""}`}>
       <div className="container">
         <div className="row">
           <div className="col-lg-4 valign">
@@ -47,8 +47,11 @@ const Clients1 = ({ theme, subBG }) => {
                           <a
                             className="link words chars splitting client-names-on-hover"
                             data-splitting
+                            href={item.url}
+                            target="_blank"
+                            rel="noreferrer"
                           >
-                            {item.url}
+                            {item.name}
                           </a>
                         </Split>
                       </div>
@@ -96,8 +99,11 @@ const Clients1 = ({ theme, subBG }) => {
                           <a
                             className="link words chars splitting client-names-on-hover"
                             data-splitting
+                            href={item.url}
+                            target="_blank"
+                            rel="noreferrer"
                           >
-                            {item.url}
+                            {item.name}
                           </a>
                         </Split>
                       </div>

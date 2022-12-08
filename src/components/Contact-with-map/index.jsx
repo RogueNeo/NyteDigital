@@ -1,10 +1,6 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
-import emailjs from "emailjs-com"
-
-
-
-
+import emailjs from "emailjs-com";
 
 const ContactWithMap = () => {
   const messageRef = React.useRef(null);
@@ -18,26 +14,26 @@ const ContactWithMap = () => {
     return error;
   }
   const sendMessage = async (values) => {
-    
     const templateParams = {
-      "name": values.name,
-      "email": values.email,
-      "message": values.message
-    }
-    const service_id = process.env.NEXT_PUBLIC_SERVICE_ID
-    const template_id = process.env.NEXT_PUBLIC_TEMPLATE_ID
-    const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY
+      name: values.name,
+      email: values.email,
+      message: values.message,
+    };
+    const service_id = process.env.NEXT_PUBLIC_SERVICE_ID;
+    const template_id = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+    const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
 
-    emailjs.send(service_id, template_id, templateParams, publicKey ).then(({ status }) => {
-      // Show success message
-      alert("Message sent successfully")
-    }, () => {
-      // Show error message
-      alert("Message couldn't be sent")
-    });
-  }
-
-
+    emailjs.send(service_id, template_id, templateParams, publicKey).then(
+      ({ status }) => {
+        // Show success message
+        alert("Message sent successfully");
+      },
+      () => {
+        // Show error message
+        alert("Message couldn't be sent");
+      }
+    );
+  };
 
   return (
     <>
@@ -128,26 +124,31 @@ const ContactWithMap = () => {
                     <a href="#0">digital.nyte@gmail.com</a>
                   </h5>
                   <h5>+880 19731-96345 </h5>
-                     <h5> +880 19166-65058</h5>
+                  <h5> +880 19166-65058</h5>
                 </div>
                 <h3 className="custom-font wow" data-splitting>
                   Visit Us
                 </h3>
                 <div className="item">
-                  <h6>
-                  House-28/D, Road-18, Sector-7
-                    <br />
-                    Uttara, Dhaka-1230
-                  </h6>
+                  <h6>Dhaka, Bangladesh</h6>
                 </div>
                 <div className="social mt-50">
-                  <a href="https://www.facebook.com/nyte.digital" className="icon">
+                  <a
+                    href="https://www.facebook.com/nyte.digital"
+                    className="icon"
+                  >
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="https://www.instagram.com/nyte.digital/" className="icon">
+                  <a
+                    href="https://www.instagram.com/nyte.digital/"
+                    className="icon"
+                  >
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="https://www.behance.net/nytedigital" className="icon">
+                  <a
+                    href="https://www.behance.net/nytedigital"
+                    className="icon"
+                  >
                     <i className="fab fa-behance"></i>
                   </a>
                 </div>
