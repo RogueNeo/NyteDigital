@@ -46,7 +46,13 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="social-icon">
-                <h6 className="custom-font stit simple-btn">Follow Us</h6>
+                <a
+                  href="https://www.facebook.com/nyte.digital"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h6 className="custom-font stit simple-btn">Follow Us</h6>
+                </a>
                 <div className="social">
                   <a
                     href="https://www.facebook.com/nyte.digital"
