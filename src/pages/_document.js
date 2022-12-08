@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import Script from 'next/script'
+import Script from "next/script";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -50,7 +50,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-         <Script src="https://smtpjs.com/v3/smtp.js" />
+          <Script src="https://smtpjs.com/v3/smtp.js" />
         </body>
       </Html>
     );

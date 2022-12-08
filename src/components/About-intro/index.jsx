@@ -15,20 +15,15 @@ const AboutIntro = () => {
             <div className="text">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  We are Nyte Digital - the solution to your digital designing
-                  problems. In a world which runs on digital marketing, the
-                  internet is a goldmine of opportunities for all kinds of
-                  businesses worldwide. This is where we come in, from providing
-                  various designing ranging from logo designing, poster
-                  formation, VFX animation, etc. we have got you covered. Not
-                  only that, our proficient team of designers are skilled in
-                  providing services like designing brochures, making
-                  illustrations etc. We promise to not only meet your demands
-                  but also to fulfil with them with excellence and competence.
-                  We guarantee to ensure quality at affordable prices but making
-                  sure it is fulfilled in the given time range. So what are you
-                  waiting for? Establish your digital presence by availing any
-                  of services.
+                  We are Nyte Digital - the solution to your digital content
+                  needs. In a world that runs on digital marketing, the internet
+                  is a goldmine of opportunities for all kinds of businesses
+                  worldwide. And this is where we help you elevate, from
+                  providing various ranges of services like Still Graphics,
+                  Motion Graphics, 3D Designing, Digital Art, Content Writing,
+                  Web Development etc we have got you covered. We promise to not
+                  only meet your demands but also fulfill them with excellence
+                  and expertise.
                 </p>
               </Split>
             </div>

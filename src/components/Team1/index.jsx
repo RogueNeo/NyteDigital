@@ -79,18 +79,42 @@ class Team1 extends React.Component {
                     className="item wow fadeInUp"
                     data-wow-delay=".3s"
                     key={item.id}
-                    
                   >
-                    <div className="img wow imago" style={{'@media (max-width: 767px)': {width: '70% !important'}}} >
+                    <div
+                      className="img wow imago"
+                      style={{
+                        "@media (maxWidth: 767px)": { width: "70% !important" },
+                      }}
+                    >
                       <img src={item.image} alt="" />
                     </div>
-                    <div className="info" style={{'@media (max-width: 767px)': {width: '70% !important'}}}>
+                    <div
+                      className="info"
+                      style={{
+                        "@media (maxWidth: 767px)": { width: "70% !important" },
+                      }}
+                    >
                       <h5>{item.name}</h5>
-                      <div className="social">
-                          <div className="info" >
-                            <h5 style={{color: "#1164fe !important", fontWeight: 600}}> {item.title} </h5>
-                          </div>
-                      </div>
+                      <h5
+                        style={{
+                          color: "#1164fe !important",
+                          fontWeight: 400,
+                        }}
+                      >
+                        {item.title}
+                      </h5>
+                      {/* <div className="social">
+                        <div className="info">
+                          <h5
+                            style={{
+                              color: "#1164fe !important",
+                              fontWeight: 600,
+                            }}
+                          >
+                            {" "}
+                          </h5>
+                        </div>
+                      </div> */}
                     </div>
                   </div>
                 ))}

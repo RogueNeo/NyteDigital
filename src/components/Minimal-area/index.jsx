@@ -17,11 +17,7 @@ const MinimalArea = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="img">
-              <img
-                className=""
-                src="/img/min-area.png"
-                alt=""
-              />
+              <img className="" src="/img/min-area.png" alt="" />
             </div>
           </div>
           <div className="col-lg-6 valign">
@@ -37,7 +33,9 @@ const MinimalArea = () => {
 
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                We are Nyte Digital - a name of excellence, and the solution to all your digital designing problems. We offer a wide range of flawless services at affordable prices.
+                  We are Nyte Digital - a name of excellence, and the solution
+                  to all your digital designing problems. We offer a wide range
+                  of flawless services at affordable prices.
                 </p>
               </Split>
               <ul className="feat">
@@ -46,8 +44,8 @@ const MinimalArea = () => {
                     <span>1</span> Our Mission
                   </h6>
                   <p>
-                    Prioritising customer satisfaction by serving our clients with flawless quality, while never compromising quantity.
-
+                    Prioritizing client satisfaction by serving them with
+                    immaculate quality while never compromising quantity
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
@@ -55,7 +53,8 @@ const MinimalArea = () => {
                     <span>2</span> Our Goals
                   </h6>
                   <p>
-                    Helping our clients navigate through the digital multiverse and immerse in digital marketing.
+                    Helping our clients navigate through the digital multiverse
+                    and excelling to outstand with our services
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">
@@ -63,7 +62,10 @@ const MinimalArea = () => {
                     <span>3</span> Why Us?
                   </h6>
                   <p>
-                    Nyte Digital remains the one and only digital designing organisation in Bangladesh that works tirelessly to ensure impeccable projects at affordable prices. So the question to be asked is not “Why Us” but rather “Why Not Us?”
+                    Nyte Digital provides a team of professionals who
+                    specializes in every digital service and ensures impeccable
+                    outcomes at affordable prices. So the question should be
+                    “Why Not Us?” instead of “Why Us?”
                   </p>
                 </li>
               </ul>

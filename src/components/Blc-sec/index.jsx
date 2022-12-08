@@ -27,10 +27,9 @@ const BlcSec = () => {
             <div className="full-width">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  We never underestimate any parts of each project as
-                  they&apos;re all essential to meeting the ultimate goal.
-                  you&apos;ll be engaged in with our positive and enthusiastic
-                  attitude.
+                  We pay attention to every small detail so they can converge to
+                  the best possible outcome. We'll be engaged with our positive
+                  attitude
                 </p>
               </Split>
               <Split>
