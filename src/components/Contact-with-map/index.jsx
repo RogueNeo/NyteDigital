@@ -162,7 +162,7 @@ const ContactWithMap = () => {
         <div className="container">
           <div className="copyrights text-center mt-0">
             <p>
-              © 2022, Developed and Designed by
+              © {new Date().getFullYear()}, Developed and Designed by
               <a>&nbsp;NyteDigital</a>.
             </p>
           </div>
