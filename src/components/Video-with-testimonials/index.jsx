@@ -159,8 +159,8 @@ const VideoWithTestimonials = () => {
                             Fazlay Rabby
                           </h6>
                           <span className="author-details">
-                            Co-Councilor, Bangladesh Youth Development &
-                            Electronic Sports Association
+                            Treasurer, Bangladesh Youth Development & Electronic
+                            Sports Association
                           </span>
                         </div>
                       </div>
