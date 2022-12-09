@@ -13,29 +13,29 @@
   },
   {
     "id": 3,
+    "image": "/img/team/sam.png",
+    "name": "Sami Mahmud",
+    "title": "Art Director"
+  },
+  {
+    "id": 4,
     "image": "/img/team/03.jpg",
     "name": "Aditya Hossain",
     "title": "Financial Analyst"
   },
   {
-    "id": 4,
+    "id": 5,
     "image": "/img/team/04.jpg",
     "name": "Mohammad Shahnewaz",
     "title": "Senior Manager"
   },
-
   {
-    "id": 5,
+    "id": 6,
     "image": "/img/team/Nafiur.png",
     "name": "Nafiur Rahman",
     "title": "Operations Manager"
   },
-  {
-    "id": 6,
-    "image": "/img/team/sam.png",
-    "name": "Sami Mahmud",
-    "title": "Art Director"
-  },
+
   {
     "id": 7,
     "image": "/img/team/L.png",
