@@ -23,17 +23,18 @@
     "name": "Mohammad Shahnewaz",
     "title": "Senior Manager"
   },
+
   {
     "id": 5,
-    "image": "/img/team/sam.png",
-    "name": "Sami Mahmud",
-    "title": "Art Director"
-  },
-  {
-    "id": 6,
     "image": "/img/team/Nafiur.png",
     "name": "Nafiur Rahman",
     "title": "Operations Manager"
+  },
+  {
+    "id": 6,
+    "image": "/img/team/sam.png",
+    "name": "Sami Mahmud",
+    "title": "Art Director"
   },
   {
     "id": 7,
