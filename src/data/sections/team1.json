@@ -25,30 +25,37 @@
   },
   {
     "id": 5,
+    "image": "/img/team/sam.png",
+    "name": "Sami Mahmud",
+    "title": "Art Director"
+  },
+  {
+    "id": 6,
     "image": "/img/team/Nafiur.png",
     "name": "Nafiur Rahman",
     "title": "Operations Manager"
   },
   {
-    "id": 6,
+    "id": 7,
     "image": "/img/team/L.png",
     "name": "Levi Shoummo Costa",
-    "title": "Project Management"
+    "title": "Project Manager"
   },
   {
-    "id": 7,
+    "id": 8,
     "image": "/img/team/Farzana.png",
     "name": "Farzana Rahman",
     "title": "Marketing Specialist"
   },
   {
-    "id": 8,
+    "id": 9,
     "image": "/img/team/05.jpg",
     "name": "Anish Amartya Saha",
     "title": "Administrative Assistant"
   },
+
   {
-    "id": 9,
+    "id": 10,
     "image": "/img/team/ISHRAQ.png",
     "name": "Ishraq Kabir",
     "title": "Content Specialist"
