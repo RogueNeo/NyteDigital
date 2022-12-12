@@ -132,7 +132,7 @@ const VideoWithTestimonials = () => {
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">
-                            Nafis Forkan
+                            Swoad Mahmud
                           </h6>
                           <span className="author-details">
                             Co-Councilor, League of Legends Bangladesh Official

@@ -35,7 +35,12 @@
     "name": "Nafiur Rahman",
     "title": "Operations Manager"
   },
-
+  {
+    "id": 7,
+    "image": "/img/team/new.jpg",
+    "name": "Nafis Forkan",
+    "title": "Project Manager"
+  },
   {
     "id": 8,
     "image": "/img/team/Farzana.png",
