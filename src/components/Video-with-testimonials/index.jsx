@@ -68,7 +68,7 @@ const VideoWithTestimonials = () => {
                     Our Clients
                   </h6>
                   <h4 className="wow fadeInLeft" data-wow-delay=".5s">
-                    What Our Client&apos;s Say?
+                    What Our Clients Say?
                   </h4>
                 </div>
                 <Slider
